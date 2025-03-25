@@ -4,7 +4,7 @@
 //uninitialized data example
 
 int main() {
-	int x;
+	int x = 0;
 
 	if(x == 0) {
 		printf("yay x = 0");
